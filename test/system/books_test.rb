@@ -1,6 +1,11 @@
 require "application_system_test_case"
 
 class BooksTest < ApplicationSystemTestCase
+  test "root page loads books page" do
+    visit books_url
+    assert_selector "h1", text: "Books"
+  end
+  
   test "creating new book" do
     visit new_book_url
 
