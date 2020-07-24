@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An extremely simple app that allows you to create "books" or "movies" consisting of a title and a synopsis, and then displays those on a "Books" page and a "Movies" page.
 
-Things you may want to cover:
+Created as an exercise for a potential employer in order to demonstrate usage of some basic Capybara testing.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

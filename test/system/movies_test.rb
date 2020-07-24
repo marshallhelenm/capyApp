@@ -14,6 +14,7 @@ class MoviesTest < ApplicationSystemTestCase
     click_on "Create Movie"
 
     assert_text title
+    assert_text synopsis
   end
 
   test "go to new movie page" do

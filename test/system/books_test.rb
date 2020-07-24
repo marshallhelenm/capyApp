@@ -5,7 +5,7 @@ class BooksTest < ApplicationSystemTestCase
     visit books_url
     assert_selector "h1", text: "Books"
   end
-  
+
   test "creating new book" do
     visit new_book_url
 
@@ -19,6 +19,7 @@ class BooksTest < ApplicationSystemTestCase
     click_on "Create Book"
 
     assert_text title
+    assert_text synopsis
   end
 
   test "go to new book page" do

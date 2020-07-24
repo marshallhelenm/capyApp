@@ -7,11 +7,11 @@ class BooksTest < ActiveSupport::TestCase
   end
 
   test 'book with a title should be valid' do
-    @book = Book.new title: 'test'
+    @book = Book.new title: 'test', synopsis: 'test'
     assert @book.valid?
   end
 
-  test 'book without a title should not be valid' do
+  test 'book without a title and synopsis should not be valid' do
     @book = Book.new 
     assert_not @book.valid?
   end
